@@ -40,7 +40,7 @@ spec:
         operator: "Exists"
         effect: "NoSchedule"
        nodeSelector:
-        kubernetes.io/hostname: ip-172-31-20-243
+        kubernetes.io/hostname: ip-172-31-20-243      
       containers:
       - name: train-schedule
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
